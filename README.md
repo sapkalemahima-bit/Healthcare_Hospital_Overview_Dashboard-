@@ -1,7 +1,7 @@
 # Healthcare Analytics Dashboard 
 
 ## Project overview
-Developed an end-to-end interactive healthcare analytics dashboard using 55,500+ patient records (56k) to analyze hospital performance, billing, and patient demographics for Healthcare domain.
+Developed an interactive healthcare analytics dashboard using 55,500+ patient records (56k) to analyze hospital performance, billing, and patient demographics for Healthcare domain.
 
 # Project Workflow
 1) Cleaned and prepared the healthcare dataset in Microsoft Excel, including handling missing values and creating age groups using excel formulas.
