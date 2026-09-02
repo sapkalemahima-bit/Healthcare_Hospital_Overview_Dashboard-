@@ -27,7 +27,7 @@ Developed an interactive healthcare analytics dashboard using 55,500+ patient re
 # Tools and Technologies 
 1) Microsoft Excel- Data preprocessing, Excel formulas and dataset preparation for analysis.
 2) Power BI Desktop- Data import, basic data modeling (single table), DAX measures (COUNT,SUM,AVERAGE), interactive dashboard development and KPL visualization.
-3) AI Assistant(OpenAI)- Used for research, improving documentation, resolving technical issues and selecting appropriate visualizations during project development.
+
 
 
 
