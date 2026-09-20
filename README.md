@@ -1,42 +1,39 @@
-Healthcare Analytics Dashboard
+# Healthcare Analytics Dashboard | Power BI
 
-Project Overview
+**50K Patients | ₹1.28bn Revenue | ₹25.56K Avg Billing**
 
-Developed an interactive healthcare analytics dashboard using 55,500+ patient records to analyze hospital performance, billing, patient demographics, admission patterns, and treatment-related results.
+### Overview
+Built interactive healthcare dashboard from 50K cleaned records (from 59K raw) to analyze hospital performance, billing, patient demographics and admission trends.
 
-Project Workflow
+### Data Cleaning: 59K -> 50K
+- Excel: Removed duplicates, fixed spelling like 'abnromal', created Age Groups (13-18 Teen, 19-30 Young Adult, 31-50 Adult, 51-64 Middle Age, 65-75 Senior)
+- Power Query: Removed null billing, invalid dates, formatted billing to ₹
+- Kept 10 analytical columns, removed PII columns like Patient Name, Doctor Name, Room No.
 
-1) Cleaned and prepared the healthcare dataset in Microsoft Excel, including removing duplicate records and creating age groups using Excel formulas.
-2) Imported the prepared dataset into Power BI and created basic data modeling using a single table.
-3) Created DAX measures and KPI cards to present key healthcare metrics.
-4) Designed interactive dashboards using charts, slicers, KPI cards, and a matrix table to generate meaningful insights.
+### Dashboard 1: Hospital Overview Dashboard
+- **KPIs:** 50K Total Patients | ₹1.28bn (₹127.77 Cr) Total Revenue | ₹25.56K Avg Billing
+- **Patient Distribution by Age Group, Gender and Medical Condition:** Arthritis, Asthma, Cancer, Diabetes across 5 age groups with Female/Male split. Adult (31-50) has highest count.
+- **Sum of Billing by Hospital and Gender:** Top 10 hospitals - Johnson PLC, LLC Smith, Ltd Smith, Smith PLC etc. with Gender breakdown.
+- **Hospital-wise Billing (A-Z):** Matrix with Female ₹63.73Cr, Male ₹64.04Cr, Total ₹127.77Cr
+- **Slicer:** Hospital dropdown
 
-Dashboard Highlights
+### Dashboard 2: Admission and Treatment Analysis Dashboard
+- **Billing by Admission Type and Test Result:** Elective, Urgent, Emergency vs Abnormal, Inconclusive, Normal - almost equal distribution (~₹140M each)
+- **Patient Admission Trend (Monthly) by Gender:** Line chart Jan-Dec, stable trend around 2000-2100 patients per month, dip in Feb
+- **Test Result Distribution:** Abnormal 33.64% (869K), Normal 33.19% (858K), Inconclusive 33.17% (857K) - balanced
+- **Slicers:** Admission Type buttons + Date of Admission dropdown
 
-1. Hospital Overview Dashboard
+### Key Insights
+1. Adult group 31-50 is highest patient base across all conditions
+2. Revenue equally split between Female and Male, and across admission types
+3. Test results are balanced, no major skew
+4. Monthly admissions stable, slight drop in February
 
-- KPI Cards: Total Patients (55K), Total Revenue (₹140.41 Cr), and Average Billing Amount (₹25.54K).
-- Patient Distribution Analysis: Visual analysis of patient distribution by medical condition, age group, and gender.
-- Hospital Billing Analysis: Clustered Column Chart showing the Top 10 Hospitals by Billing Amount with Gender breakdown.
-- Hospital Billing Summary: Matrix table showing all hospitals in A–Z order, with billing amount and gender-wise information.
-- Hospital Slicer: Interactive drop-down slicer to filter the dashboard by hospital.
+### Tools
+Excel (Cleaning, IF formulas) | Power BI (Power Query, DAX, KPI Cards, Matrix, Slicers)
 
-2. Admission and Treatment Analysis Dashboard
+### Files
+`healthcare 50K final.pbix` | `healthcare 50K final.xlsx` | Screenshots
 
-- Gender Distribution: Donut chart showing patient distribution by gender.
-- Admission Type Slicer: Interactive button slicer for filtering by admission type.
-- Date of Admission Slicer: Drop-down date slicer for filtering patient admissions by date.
-- Treatment/Patient Analysis: Visualizations to identify patterns in admission and treatment-related data.
-
-Key Business Insights
-
-1) Patient demographic analysis helps identify patterns across medical conditions, age groups, and gender.
-2) Hospital billing analysis highlights differences in billing amounts across hospitals and gender.
-3) The Top 10 hospital analysis provides a focused view of hospitals with higher billing amounts.
-4) Admission type and date filters allow users to interactively explore patient admission patterns.
-5) The dashboard provides an interactive overview of healthcare data to support data-driven analysis and reporting.
-
-Tools and Technologies
-
-1) Microsoft Excel – Data preprocessing, duplicate removal, Excel formulas, age-group creation, and dataset preparation.
-2) Power BI Desktop – Data import, basic data modeling, DAX measures, KPI cards, interactive visualizations, slicers, matrix table, and dashboard development.
+### Demo
+Live via Power BI Desktop screen share
