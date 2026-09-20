@@ -20,7 +20,7 @@ Built interactive healthcare dashboard from 50K cleaned records (from 59K raw) t
 ### Dashboard 2: Admission and Treatment Analysis Dashboard
 - **Billing by Admission Type and Test Result:** Elective, Urgent, Emergency vs Abnormal, Inconclusive, Normal - almost equal distribution
 - **Patient Admission Trend (Monthly) by Gender:** Line chart Jan-Dec, stable trend around 2000-2100 patients per month, dip in Feb
-- **Test Result Distribution:** Abnormal 33.64% (869K), Normal 33.19% (858K), Inconclusive 33.17% (857K) - balanced
+- **Test Result Distribution:** Abnormal 33.54%     (16.77k), Normal 33.37% (16.68k), Inconclusive 33.09% (16.54K) - balanced
 - **Slicers:** Admission Type buttons + Date of Admission dropdown
 
 ### Key Insights
