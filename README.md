@@ -6,7 +6,7 @@
 Built interactive healthcare dashboard from 50K cleaned records (from 59K raw) to analyze hospital performance, billing, patient demographics and admission trends.
 
 ### Data Cleaning: 59K -> 50K
-- Excel: Removed duplicates, fixed spelling like 'abnromal', created Age Groups (13-18 Teen, 19-30 Young Adult, 31-50 Adult, 51-64 Middle Age, 65-75 Senior)
+- Excel: Removed duplicates, fixed spelling like 'abnromal', created Age Groups (13-18 Teen, 19-30 Young Adult, 31-50 Adult, 51-64 Middle Age, 65-75 Senior, 76+ elderly )
 - Power Query: Removed null billing, invalid dates, formatted billing to ₹
 - Kept 10 analytical columns, removed PII columns like Patient Name, Doctor Name, Room No.
 
