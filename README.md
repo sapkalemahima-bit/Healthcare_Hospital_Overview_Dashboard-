@@ -3,7 +3,8 @@
 **50K Patients | ₹1.28bn Revenue | ₹25.56K Avg Billing**
 
 ### Overview
-Built interactive healthcare dashboard from 50K cleaned records (from 59K raw) to analyze hospital performance, billing, patient demographics and admission trends.
+Dataset: Kaggle healthcare dataset 
+Built interactive healthcare dashboard from 50K cleaned records (from 59K raw) to analyze hospital performance, patient demographics and admission trends.
 
 ### Data Cleaning: 59K -> 50K
 - Excel: Removed duplicates, fixed spelling like 'abnromal', created Age Groups (13-18 Teen, 19-30 Young Adult, 31-50 Adult, 51-64 Middle Age, 65-75 Senior, 76+ elderly )
@@ -14,12 +15,12 @@ Built interactive healthcare dashboard from 50K cleaned records (from 59K raw) t
 - **KPIs:** 50K Total Patients | ₹1.28bn (₹127.77 Cr) Total Revenue | ₹25.56K Avg Billing
 - **Patient Distribution by Age Group, Gender and Medical Condition:** Arthritis, Asthma, Cancer, Diabetes, hypertension, obesity across 6 age groups with Female/Male split. Adult (31-50) has highest count.
 - **Sum of Billing by Hospital and Gender:** Top 10 hospitals - Johnson PLC, LLC Smith, Ltd Smith, Smith PLC etc. with Gender breakdown.
-- **Hospital-wise Billing (A-Z):** Matrix with Female ₹63.73Cr, Male ₹64.04Cr, Total ₹127.77Cr
+- **Hospital-wise Billing (A-Z):** Matrix with Female ₹63.73Cr, Male ₹64.05Cr, Total ₹127.78Cr
 - **Slicer:** Hospital dropdown
 
 ### Dashboard 2: Admission and Treatment Analysis Dashboard
 - **Billing by Admission Type and Test Result:** Elective, Urgent, Emergency vs Abnormal, Inconclusive, Normal - almost equal distribution
-- **Patient Admission Trend (Monthly) by Gender:** Line chart Jan-Dec, stable trend around 2000-2100 patients per month, dip in Feb
+- Patient Admission Trend (Monthly) by Gender: Line chart Jan-Dec, stable at ~2,000-2,200 patients per gender each month, lowest in Feb (~1,900), highest in Aug
 - **Test Result Distribution:** Abnormal 33.54%     (16.77k), Normal 33.37% (16.68k), Inconclusive 33.09% (16.54K) - balanced
 - **Slicers:** Admission Type buttons + Date of Admission dropdown
 
