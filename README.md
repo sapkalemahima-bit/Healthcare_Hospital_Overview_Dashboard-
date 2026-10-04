@@ -8,13 +8,9 @@
 ### 1. Hospital Overview
 ![Hospital_Overview_Dashboard](Hospital_Overview_Dashboard.png)
 
-### 2. Admission_&_Treatment_Analysis
 ![Admission Dashboard](Admission_&_Treatment_Analysis_Dashboard.png)
 
-## 📁 Project Files
-- `Hospital_Overview_Dashboard.png`
-- `Admission_&_Treatment_Analysis_Dashboard.png`
-- `Hospital_Healthcare_Analytics_Dashboard.pdf` 
+`Hospital_Healthcare_Analytics_Dashboard.pdf` 
 
 **50K Patients | ₹1.28bn Revenue | ₹25.56K Avg Billing**
 
