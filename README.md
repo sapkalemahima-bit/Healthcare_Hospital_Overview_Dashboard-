@@ -1,15 +1,21 @@
 # Healthcare Analytics Dashboard | Power BI
 
+# Healthcare Analytics Dashboard | Power BI
+### 50K Patients | ₹1.28bn Revenue | ₹25.56K Avg Billing
+
 ## 📸 Dashboard Preview
 
-### Dashboard 1: Hospital Overview
-![Hospital Overview Dashboard](Hospital%20Overview%20Dashboard.png)
+### 1. Hospital Overview
+![Hospital_Overview_Dashboard](Hospital_Overview_Dashboard.png)
 
-### Dashboard 2: Admission and Treatment Analysis
-![Admission and Treatment Analysis Dashboard](Admission%20and%20Treatment%20Analysis%20Dashboard.png)
+### 2. Admission_&_Treatment_Analysis
+![Admission Dashboard](Admission_&_Treatment_Analysis_Dashboard.png)
 
-### 📁 Files
-[📊 Download Full Report PDF](Hospital%20Healthcare%20Analytic%20Dashboard.pdf)
+## 📁 Project Files
+- `Hospital_Overview_Dashboard.png`
+- `Admission_&_Treatment_Analysis_Dashboard.png`
+- `Hospital_Healthcare_Analytics_Dashboard.pdf` 
+
 **50K Patients | ₹1.28bn Revenue | ₹25.56K Avg Billing**
 
 ### Overview
