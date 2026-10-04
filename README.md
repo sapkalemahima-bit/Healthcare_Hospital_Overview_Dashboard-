@@ -45,3 +45,8 @@ Built interactive healthcare dashboard from 50K cleaned records (from 59K raw) t
 ### Tools
 Excel (Cleaning, IF formulas) | Power BI (Power Query, DAX, KPI Cards, Matrix, Slicers)
 
+### Demo
+
+Screen recording of the interactive Power BI dashboard
+[Watch the demo video](Hospital_Analytics_Dashboard_demo.mp4)
+
