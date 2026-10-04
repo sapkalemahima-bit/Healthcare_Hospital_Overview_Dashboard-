@@ -33,8 +33,3 @@ Built interactive healthcare dashboard from 50K cleaned records (from 59K raw) t
 ### Tools
 Excel (Cleaning, IF formulas) | Power BI (Power Query, DAX, KPI Cards, Matrix, Slicers)
 
-### Files
-`healthcare 50K final.pbix` | `healthcare 50K final.xlsx` | Screenshots
-
-### Demo
-Live via Power BI Desktop screen share
