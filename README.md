@@ -14,7 +14,7 @@ Built interactive healthcare dashboard from 50K cleaned records (from 59K raw) t
 ### Dashboard 1: Hospital Overview Dashboard
 - **KPIs:** 50K Total Patients | ₹1.28bn (₹127.77 Cr) Total Revenue | ₹25.56K Avg Billing
 - **Patient Distribution by Age Group, Gender and Medical Condition:** Arthritis, Asthma, Cancer, Diabetes, hypertension, obesity across 6 age groups with Female/Male split. Adult (31-50) has highest count.
-- **Sum of Billing by Hospital and Gender:** Top 10 hospitals - Johnson PLC, LLC Smith, Ltd Smith, Smith PLC etc. with Gender breakdown.
+- **Sum of Billing by Hospital and Gender:** Top 10 hospitals - Johnson PLC, LLC Smith, Ltd Smith, Smith PLC etc. with Gender breakdown, data label added.
 - **Hospital-wise Billing (A-Z):** Matrix with Female ₹63.73Cr, Male ₹64.05Cr, Total ₹127.78Cr
 - **Slicer:** Hospital dropdown
 
