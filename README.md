@@ -47,6 +47,6 @@ Excel (Cleaning, IF formulas) | Power BI (Power Query, DAX, KPI Cards, Matrix, S
 
 ### Demo
 
-Screen recording of the interactive Power BI dashboard
+Screen recording of the interactive Power BI dashboard:- 
 [Watch the demo video](Hospital_Analytics_Dashboard_demo.mp4)
 
