@@ -10,7 +10,7 @@
 
 ![Admission Dashboard](Admission_&_Treatment_Analysis_dashboard.png)
 
-[📄 Download Full Dashboard PDF (Hospital_Healthcare_Analytics_Dashboard.pdf) 
+[📄 Download Full Dashboard PDF] (Hospital_Healthcare_Analytics_Dashboard.pdf) 
 
 **50K Patients | ₹1.28bn Revenue | ₹25.56K Avg Billing**
 
