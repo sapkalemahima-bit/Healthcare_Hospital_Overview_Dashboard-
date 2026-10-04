@@ -8,7 +8,7 @@
 ### 1. Hospital Overview
 ![Hospital_Overview_Dashboard](Hospital_Overview_Dashboard.png)
 
-![Admission Dashboard](Admission_and_Treatment_Analysis_dashboard.png)
+![Admission Dashboard](Admission_&_Treatment_Analysis_dashboard.png)
 
 (Hospital_Healthcare_Analytics_Dashboard.pdf) 
 
